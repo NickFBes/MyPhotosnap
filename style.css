@@ -395,8 +395,23 @@ footer {
     margin: 2rem;
   }
 
-  .imgmastergrid1 {
+  .imgmastergrid1, .imgmastergrid3 {
     order: -1;
+  }
+
+  .imgmastergrid1{
+    content: url(./assets/home/mobile/create-and-share.jpg);
+    width: 100%;
+  }
+
+  .imgmastergrid2{
+    content: url(./assets/home/mobile/beautiful-stories.jpg);
+    width: 100%;
+  }
+
+  .imgmastergrid2{
+    content: url(./assets/home/mobile/designed-for-everyone.jpg);
+    width: 100%;
   }
 
   .mastergrid2 {
