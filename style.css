@@ -216,7 +216,7 @@ a {
   height: 5px;
   background: linear-gradient(27deg, #ffc593 0%, #bc7198 49%, #5a77ff 95%);
   transform: translateY(100%);
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease-in-out;
 }
 
 .gallerycardlink:hover::after {
