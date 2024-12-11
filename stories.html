@@ -1,126 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Photosnap Website Challenge</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Stories
-  Features
-  Pricing
+    <title>Frontend Mentor | Photosnap Website Challenge</title>
 
-  Get an invite
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  Last month's featured story
+    <link rel="stylesheet" href="stories.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
 
-  Hazy full moon of Appalachia
-  March 2nd 2020
-  by John Appleseed
+    <header>
+      <div class="header_content">
+        <a href="./index.html">
+          <img
+            src="./assets/shared/desktop/logo.svg"
+            alt="Logo Photosnap"
+            class="logo"
+          />
+        </a>
 
-  The dissected plateau area, while not actually made up of geological mountains, 
-  is popularly called "mountains," especially in eastern Kentucky and West Virginia, 
-  and while the ridges are not high, the terrain is extremely rugged.
+        <nav class="nav-header">
+          <ul class="nav-header_list">
+            <li class="navlistlink"><a href="./stories.html">STORIES</a></li>
+            <li class="navlistlink"><a href="#">FEATURES</a></li>
+            <li class="navlistlink"><a href="#">PRICING</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="button">Get An Invite</a>
+      </div>
+    </header>
 
-  Read the story
+    <div id="month-story">
+      <span id="span_background" class="background-radial"></span>
+      <div id="wrap-month-story" class="wrap-month-story">
+        <p>LAST MONTH'S FEATURED STORY</p>
 
-  April 16th 2020
-  The Mountains
-  by John Appleseed
-  Read Story
+        <h1>Hazy full moon of Appalachia</h1>
+        <div class="month-author-date">
+          <div>March 2nd 2020</div>
+          <div>by John Appleseed</div>
+        </div>
 
-  April 14th 2020
-  Sunset Cityscapes
-  by Benjamin Cruz
-  Read Story
+        <p>
+          The dissected plateau area, while not actually made up of geological
+          mountains, is popularly called "mountains," especially in eastern
+          Kentucky and West Virginia, and while the ridges are not high, the
+          terrain is extremely rugged.
+        </p>
 
-  April 11th 2020
-  18 Days Voyage
-  by Alexei Borodin
-  Read Story
+        <a href="#" class="linkiconarea">
+          <span class="link">READ THE STORY</span>
+          <span class="iconarrow"
+            ><img src="assets/shared/desktop/arrow.svg" alt=""
+          /></span>
+        </a>
+      </div>
+    </div>
 
-  April 9th 2020
-  Architecturals
-  by Samantha Brooke
-  Read Story
+    <div id="home-cards">
+      <div class="cards">
+        <div class="card">
+          <div class="footer-card">
+            <div class="card-desc">
+              <p>April 16th 2020</p>
+              <p>The Mountains</p>
+              <p>by John Appleseed</p>
+            </div>
 
-  April 7th 2020
-  World Tour 2019
-  by Timothy Wagner
-  Read Story
+            <a href="./stories.html" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
 
-  April 7th 2020
-  World Tour 2019
-  by Timothy Wagner
-  Read Story
+        <div class="card">
+          <div class="footer-card">
+            <div class="card-desc">
+              <p>April 14th 2020</p>
+              <p>Sunset Cityscapes</p>
+              <p>by Benjamin Cruz</p>
+            </div>
 
-  April 3rd 2020
-  Unforeseen Corners
-  by William Malcolm
-  Read Story
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
 
-  March 29th 2020
-  King on Africa: Part II
-  by Tim Hillenburg
-  Read Story
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>April 11th 2020</p>
+              <p>18 Days Voyage</p>
+              <p>by Alexei Borodin</p>
+            </disc>
 
-  March 21st 2020
-  The Trip to Nowhere
-  by Felicia Rourke
-  Read Story
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
 
-  March 19th 2020
-  Rage of The Sea
-  by Mohammed Abdul
-  Read Story
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>April 9th 2020</p>
+              <p>Architecturals</p>
+              <p>by Samantha Brooke</p>
+            </disc>
 
-  March 16th 2020
-  Running Free
-  by Michelle
-  Read Story
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
 
-  March 11th 2020
-  Behind the Waves
-  by Lamarr Wilson
-  Read Story
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>April 7th 2020</p>
+              <p>World Tour 2019</p>
+              <p>by Timothy Wagner</p>
+            </disc>
 
-  March 9th 2020
-  Calm Waters
-  by Samantha Brooke
-  Read Story
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
 
-  March 5th 2020
-  The Milky Way
-  by Benjamin Cruz
-  Read Story
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>April 3rd 2020</p>
+              <p>Unforeseen Corners</p>
+              <p>by William Malcolm</p>
+            </disc>
 
-  March 4th 2020
-  Night at The Dark Forest
-  by  Mohammed Abdul
-  Read Story
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
 
-  March 1st 2020
-  Somwarpet’s Beauty
-  by Michelle
-  Read Story
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 29th 2020</p>
+              <p>King on Africa: Part II</p>
+              <p>by Tim Hillenburg</p>
+            </disc>
 
-  February 25th 2020
-  Land of Dreams
-  by William Malcolm
-  Read Story
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
 
-  Home
-  Stories
-  Features
-  Pricing
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 21st 2020</p>
+              <p>The Trip to Nowhere</p>
+              <p>by Felicia Rourke</p>
+            </disc>
 
-  Get an invite
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
 
-  Copyright 2019. All Rights Reserved
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 19th 2020</p>
+              <p>Rage of The Sea</p>
+              <p>by Mohammed Abdul</p>
+            </disc>
 
-</body>
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 16th 2020</p>
+              <p>Running Free</p>
+              <p>by Michelle</p>
+            </disc>
+
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 11th 2020</p>
+              <p>Behind the Waves</p>
+              <p>by Lamarr Wilson</p>
+            </disc>
+
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 9th 2020</p>
+              <p>Calm Waters</p>
+              <p>by Samantha Brooke</p>
+            </disc>
+
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 5th 2020</p>
+              <p>The Milky Way</p>
+              <p>by Benjamin Cruz</p>
+            </disc>
+
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 4th 2020</p>
+              <p>Night at The Dark Forest</p>
+              <p>by Mohammed Abdul</p>
+            </disc>
+
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>March 1st 2020</p>
+              <p>Somwarpet’s Beauty</p>
+              <p>by Michelle</p>
+            </disc>
+
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="footer-card">
+            <disc class="card-desc">
+              <p>February 25th 2020</p>
+              <p>Land of Dreams</p>
+              <p>by William Malcolm</p>
+            </disc>
+
+            <a href="#" class="linkiconarea">
+              <span class="link">READ STORY</span>
+              <span class="iconarrow"
+                ><img src="assets/shared/desktop/arrow.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="side1">
+          <a href="#" class="logolight">
+            <img src="./assets/logo-light.c601952e.svg" alt="Logo" />
+          </a>
+          <ul class="footernav">
+            <li class="footernavitem">
+              <a href="#">Home</a>
+            </li>
+            <li class="footernavitem">
+              <a href="./stories.html">Stories</a>
+            </li>
+            <li class="footernavitem">
+              <a href="#">Features</a>
+            </li>
+            <li class="footernavitem">
+              <a href="#">Pricing</a>
+            </li>
+          </ul>
+          <div class="socials">
+            <a href="" class="sociallink">
+              <span class="iconfacebook socialicon"
+                ><img src="./assets/shared/desktop/facebook.svg" alt=""
+              /></span>
+            </a>
+
+            <a href="" class="sociallink">
+              <span class="iconyoutube socialicon"
+                ><img src="./assets/shared/desktop/youtube.svg" alt=""
+              /></span>
+            </a>
+
+            <a href="" class="sociallink">
+              <span class="icontwitter socialicon"
+                ><img src="./assets/shared/desktop/twitter.svg" alt=""
+              /></span>
+            </a>
+
+            <a href="" class="sociallink">
+              <span class="iconpinterest socialicon"
+                ><img src="./assets/shared/desktop/pinterest.svg" alt=""
+              /></span>
+            </a>
+
+            <a href="" class="sociallink">
+              <span class="iconinstagram socialicon"
+                ><img src="./assets/shared/desktop/instagram.svg" alt=""
+              /></span>
+            </a>
+          </div>
+        </div>
+        <div class="side2">
+          <div class="part2">
+            <div class="arrow">
+              <a href="#">Get an Invite</a>
+              <img src="assets/shared/desktop/arrow.svg" alt="" />
+            </div>
+          </div>
+          <p>Copyright 2019. All Rights Reserved</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
