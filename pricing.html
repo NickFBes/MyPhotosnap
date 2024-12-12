@@ -7,40 +7,107 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Photosnap Website Challenge</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="pricing.css">
+
 </head>
 <body>
 
-  Stories
-  Features
-  Pricing
+  <header>
+    <div class="header_content">
+      <a href="./index.html">
+        <img
+          src="./assets/shared/desktop/logo.svg"
+          alt="Logo Photosnap"
+          class="logo"
+        />
+      </a>
 
-  Get an invite
+      <nav class="nav-header">
+        <ul class="nav-header_list">
+          <li class="navlistlink"><a href="./stories.html">STORIES</a></li>
+          <li class="navlistlink"><a href="./features.html">FEATURES</a></li>
+          <li class="navlistlink"><a href="./pricing.html">PRICING</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="button">Get An Invite</a>
+    </div>
+  </header>
 
-  Pricing
+  <main id="hero">
+    <div class="container_hero">
+      <div class="first-row hero-row">
+        <div class="text-side first-text-side">
+          <div class="wrap-text-side">
+            <h1>PRICING</h1>
+            <p>Create a your stories, Photosnap is a platform for photographers and visual storytellers. 
+              It’s the simple way to create and share your photos.</p>
+          </div>
+        </div>
+        <div class="picture_side">
+        </div>
+      </div>
+    </div>
 
-  Create a your stories, Photosnap is a platform for photographers and visual storytellers. 
-  It’s the simple way to create and share your photos.
-
-  Monthly
-  Yearly
-
-  Basic
-  Includes basic usage of our platform. Recommended for new and aspiring photographers.
-  $19.00 per month
-  $190.00 per year
-  Pick Plan
-
-  Pro
-  More advanced features available. Recommended for photography veterans and professionals.
-  $39.00 per month
-  $390.00 per year
-  Pick Plan
-
-  Business
-  Additional features available such as more detailed metrics. Recommended for business owners.
-  $99.00 per month
-  $990.00 per year
-  Pick Plan
+  
+    <div id="price_compare">
+      <div class="price">
+        <div class="wrap-price">
+          <div class="button-price">
+            <p id="monthly" class="active">Monthly</p>
+            <div id="card-button-toggler" class="toggle-btn">
+              <div class="inner-circle"></div>
+            </div>
+            <p id="yearly" >Yearly</p>
+          </div>
+          <div class="prices-cards">
+  
+            <div class="price-card">
+              <p>Basic</p>
+              <p>Includes basic usage of our platform. Recommended for new and aspiring photographers.</p>
+              <p>$19.00</p>
+              <p>per month</p>
+              <!-- <p>$190.00</p>
+              <p>per year</p> -->
+              <div class="card-button-div">
+                <button class="card-button">PICK PLAN</button>
+              </div>
+            </div>
+  
+            <div class="price-card black-price-card">
+              <p>Pro</p>
+              <p>More advanced features available. Recommended for photography veterans and professionals.</p>
+              <p>$39.00</p>
+              <p>per month</p>
+              <!-- <p>$390.00</p>
+              <p>per year</p> -->
+              <div class="card-button-div">
+                <button class="card-button card-white-button">PICK PLAN</button>
+              </div>
+            </div>
+  
+            <div class="price-card">
+              <p>Business</p>
+              <p>Additional features available such as more detailed metrics. Recommended for business owners.</p>
+              <p>$99.00</p>
+              <p>per month</p>
+              <!-- <p>$990.00</p>
+              <p>per year</p> -->
+              <div class="card-button-div">
+                <button class="card-button">PICK PLAN</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   Compare
 
@@ -59,18 +126,85 @@
   Search Engine Indexing
   Custom Analytics
 
-  We're in Beta. Get your invite today!
+  <div class="beta-section">
   
-  Get an invite
+    <div class="wrap-beta-text">
+      <h1>We're in Beta. Get your invite today!</h1>
+    <a href="#" class="linkiconarea">
+      <span class="link">GET AN INVITE</span>
+      <span class="iconarrow"
+        ><img src="assets/shared/desktop/arrow.svg" alt=""
+      /></span>
+    </a>
+    </div>
+   
+  
+  </div>
 
-  Home
-  Stories
-  Features
-  Pricing
+  <!-- FOOTER -->
 
-  Get an invite
+  <footer>
+    <div class="footer">
+      <div class="side1">
+        <a href="#" class="logolight">
+          <img src="./assets/logo-light.c601952e.svg" alt="Logo" />
+        </a>
+        <ul class="footernav">
+          <li class="footernavitem">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="footernavitem">
+            <a href="./stories.html">Stories</a>
+          </li>
+          <li class="footernavitem">
+            <a href="./features.html">Features</a>
+          </li>
+          <li class="footernavitem">
+            <a href="./pricing.html">Pricing</a>
+          </li>
+        </ul>
+        <div class="socials">
+          <a href="" class="sociallink">
+            <span class="iconfacebook socialicon"
+              ><img src="./assets/shared/desktop/facebook.svg" alt=""
+            /></span>
+          </a>
 
-  Copyright 2019. All Rights Reserved
+          <a href="" class="sociallink">
+            <span class="iconyoutube socialicon"
+              ><img src="./assets/shared/desktop/youtube.svg" alt=""
+            /></span>
+          </a>
 
+          <a href="" class="sociallink">
+            <span class="icontwitter socialicon"
+              ><img src="./assets/shared/desktop/twitter.svg" alt=""
+            /></span>
+          </a>
+
+          <a href="" class="sociallink">
+            <span class="iconpinterest socialicon"
+              ><img src="./assets/shared/desktop/pinterest.svg" alt=""
+            /></span>
+          </a>
+
+          <a href="" class="sociallink">
+            <span class="iconinstagram socialicon"
+              ><img src="./assets/shared/desktop/instagram.svg" alt=""
+            /></span>
+          </a>
+        </div>
+      </div>
+      <div class="side2">
+        <div class="part2">
+          <div class="arrow">
+            <a href="#">Get an Invite</a>
+            <img src="assets/shared/desktop/arrow.svg" alt="" />
+          </div>
+        </div>
+        <p>Copyright 2019. All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
