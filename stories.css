@@ -199,11 +199,11 @@
 }
 
 .card:first-child {
-    background-image: url(../assets/stories/desktop/mountains.jpg);
+    background-image: url(./assets/stories/desktop/mountains.jpg);
 }
 
 .card:nth-child(2) {
-    background-image: url(../assets/stories/desktop/cityscapes.jpg);
+    background-image: url(./assets/stories/desktop/cityscapes.jpg);
 }
 
 .card:nth-child(3){

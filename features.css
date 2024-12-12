@@ -132,7 +132,7 @@
 .picture_side {
     width: 57.54vw;
     height: 490px;
-    background-image: url(../assets/features/desktop/hero.jpg);
+    background-image: url(./assets/features/desktop/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
